@@ -17,7 +17,7 @@
   0 // put to 1 to have press and release actionned
 #define INIT_VOLUME 0
 // delay for readknob's infinite loop
-const TickType_t delay = pdMS_TO_TICKS(10);
+const TickType_t delay = pdMS_TO_TICKS(15);
 
 // pin order : {sw,dt,clk}
 static int pin_arr[CONFIG_KNOB_NUMBER][3] = {
